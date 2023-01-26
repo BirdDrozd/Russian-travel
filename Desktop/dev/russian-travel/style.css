@@ -1,7 +1,232 @@
-@font-face {
-  font-family: "Inter";
-  src: url(/inter.css);
-}
+@import url(./inter.css);
+
 .page {
   background: #2A2C2F;
+  max-width: 1600px;
+  margin: 0 auto;
+  color: #FFFFFF;
+  font-family: "Inter";
+}
+
+.header {
+  margin: 0;
+  padding: 28px 48px 0;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+@media screen and (max-width: 780px) {
+  .header {
+    padding: 28px 24px 0;
+  } 
+}
+
+@media screen and (max-width: 330px) {
+  .header {
+    height: 42px;
+    padding: 16px 16px 0;
+  } 
+}
+
+.header__land {
+  display: flex;
+  column-gap: 18px;
+
+}
+
+.header__land-link {
+  color:#FFFFFF;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: right;
+  margin: 18px 0 0;
+}
+
+.header__land-link-lang {
+  text-decoration: none;
+}
+
+.lead {
+  padding: 0 148px;
+ 
+}
+
+@media screen and (max-width: 1030px) {
+  .lead {
+    padding: 0 48px;
+  } 
+}
+
+@media screen and (max-width: 780px) {
+  .lead {
+    padding: 0;
+  } 
+}
+
+.lead__title {
+  margin: 0 auto;
+  padding-top: 6%;
+  width: 700px;
+  height: 200px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 112px;
+  line-height: 98px;
+  position: relative;
+  text-align: center;
+}
+
+.lead__subtitle {
+  width: 640px;
+  padding-top: 3%;
+  height: 72px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 38px;
+}
+
+.lead__image {
+  display: block;
+  margin: 0 auto;
+  padding-top: 7%;
+  max-width: 100%;
+}
+
+.lead__caption {
+  width: 160px;
+  height: 14px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 9px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.intro {
+  padding: 0 442px 0 148px;
+}
+
+@media screen and (max-width: 1030px) {
+  .intro {
+    padding: 0 286px 0 48px;
+  } 
+}
+
+@media screen and (max-width: 780px) {
+  .intro {
+    padding: 0 24px;
+  } 
+}
+
+@media screen and (max-width: 330px) {
+  .intro {
+    padding: 0 16px;
+  } 
+}
+
+.intro__title {
+  width: 690px;
+  height: 86px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 61px;
+  line-height: 136px;
+}
+
+.intro__text {
+  width: 616px;
+  height: 225px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 154%;
+  margin: 0;
+}
+
+.intro__item {
+  margin: 0;
+  padding: 2% 0 13%;
+  width: 690px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+  list-style-type: none;
+}
+
+.photo-grid {
+  padding: 0 48px;
+}
+
+@media screen and (max-width: 780px) {
+  .photo-grid {
+    padding: 0 24px;
+  } 
+}
+
+@media screen and (max-width: 330px) {
+  .photo-grid {
+    padding: 0 16px;
+  } 
+}
+
+.places {
+  padding: 0 148px;
+}
+
+@media screen and (max-width: 1030px) {
+  .places {
+    padding: 0 48px;
+  } 
+}
+
+@media screen and (max-width: 780px) {
+  .places {
+    padding: 0 24px;
+  } 
+}
+
+@media screen and (max-width: 330px) {
+  .places {
+    padding: 0;
+  } 
+}
+
+.cover {
+  padding: 0 48px;
+}
+
+@media screen and (max-width: 1030px) {
+  .cover {
+    padding: 0;
+  } 
+}
+
+.footer {
+  padding: 0 48px;
+}
+
+@media screen and (max-width: 780px) {
+  .footer {
+    padding: 0 24px;
+  } 
+}
+
+@media screen and (max-width: 330px) {
+  .footer {
+    
+  } 
 }
