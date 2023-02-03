@@ -1,5 +1,6 @@
 .footer__copyright{
-  max-width: 186px;
+  margin: 0;
+  max-width: 200px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -7,7 +8,8 @@
   text-align: right;
 }
 
-@media screen and (max-width: 330px) {
+
+@media screen and (max-width: 500px) {
   .footer__copyright {
      line-height: 14px;
   }

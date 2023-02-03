@@ -3,14 +3,21 @@
   max-width: 460px;
   font-style: normal;
   font-weight: 900;
-  font-size: 69px;
+  font-size: 72px;
   line-height: 75px;
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 800px) {
   .place__title {
-    font-size: 32px;
+    font-size: 42px;
+    line-height: 46px;
+  } 
+}
+
+@media screen and (max-width: 500px) {
+  .place__title {
+    font-size: 28px;
     line-height: 35px;
-    margin: 50px 16px 0;
+    margin: 0 16px;
   } 
 }

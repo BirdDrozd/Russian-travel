@@ -3,14 +3,14 @@
   max-height: 460px;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1100px) {
   .place__image {
     max-width: 440px;
     max-height: 440px;
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 800px) {
   .place__image {
     display: grid;
     max-width: 340px;
@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 500px) {
   .place__image {
     max-width: 320px;
     max-height: 315px;

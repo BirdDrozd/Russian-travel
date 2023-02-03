@@ -7,15 +7,35 @@
   line-height: 163%;
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 1100px) {
+  .place__paragraph{
+      width: 456px;
+    }
+}
+
+@media screen and (max-width: 800px) {
 .place__paragraph{
-    width: 288px;
+    width: 352px;
     font-size: 16px;
     line-height: 163%;
-    padding-top: 32px;
   }
 }
 
+@media screen and (max-width: 500px) {
+  .place__paragraph{
+      width: 288px;
+      font-size: 16px;
+      line-height: 163%;
+      padding: 0 16px;
+    }
+}
+
 .place__paragraph-split {
-  margin-bottom: 26px;
+  margin-bottom: 27px;
+}
+
+@media screen and (max-width: 800px) {
+  .place__paragraph-split{
+    margin-bottom: 25px;
+    }
 }

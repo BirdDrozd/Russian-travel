@@ -1,5 +1,5 @@
+@import url(../vendor/fonts/inter.css);
 @import url(../vendor/normalize.css);
-@import url(../fonts/inter.css);
 @import url(../bloks/page/page.css);
 @import url(../bloks/header/header.css);
 @import url(../bloks/header/__lang/header__lang.css);
@@ -15,12 +15,13 @@
 @import url(../bloks/intro/__text/intro__text.css);
 @import url(../bloks/intro/__list/intro__list.css);
 @import url(../bloks/photo-grid/photo-grid.css);
+@import url(../bloks/photo-grid/__item/photo-grid__item.css);
 @import url(../bloks/places/places.css);
 @import url(../bloks/place/place.css);
 @import url(../bloks/place/__title/place__title.css);
 @import url(../bloks/place/__website/place__website.css);
-@import url(../bloks/place/__website/__link/place__website__link.css);
-@import url(../bloks/place/__website/__url/place__website__url-heading.css);
+@import url(../bloks/place/__link/place__link.css);
+@import url(../bloks/place/__url/place__website__url.css);
 @import url(../bloks/place/__paragraph/place__paragraph.css);
 @import url(../bloks/place/__image/place__image.css);
 @import url(../bloks/cover/cover.css);

@@ -2,13 +2,14 @@
   max-width: 690px;
   font-style: normal;
   font-weight: 900;
-  font-size: 49px;
+  font-size: 54px;
   line-height: 58px;
   margin: 0;
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 500px) {
   .intro__title {
+    width: 288px;
     font-size: 32px;
     line-height: 35px;
   } 
