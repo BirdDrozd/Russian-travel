@@ -7,19 +7,19 @@
   font-size: 72px;
   line-height: 75px;
   text-align: center;
-  padding: 245px 0 0;
+  padding-top: 245px;
   z-index: 1;
 }
 
 @media screen and (max-width: 1100px) {
   .cover__title {
-    padding: 195px 16px 0;
+    padding-top: 195px;
   }
 }
 
 @media screen and (max-width: 800px) {
   .cover__title {
-    padding: 115px 16px 0;
+    padding-top: 115px;
   }
 }
 

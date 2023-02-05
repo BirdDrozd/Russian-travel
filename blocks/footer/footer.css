@@ -9,13 +9,14 @@
 
 @media screen and (max-width: 800px) {
   .footer {
+    display: block;
     padding: 0 24px 24px;
-  } 
+  }
 }
 
 @media screen and (max-width: 500px) {
   .footer {
     padding-left: 16px;
     flex-direction: column;
-  } 
+  }
 }
