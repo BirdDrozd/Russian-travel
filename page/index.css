@@ -3,6 +3,8 @@
 @import url(../bloсks/page/page.css);
 @import url(../bloсks/header/header.css);
 @import url(../bloсks/header/__lang/header__lang.css);
+@import url(../bloсks/header/__lang-link/header__lang-link.css);
+@import url(../bloсks/header/__lang-link-selected/header__lang-link-selected.css);
 @import url(../bloсks/content/content.css);
 @import url(../bloсks/lead/lead.css);
 @import url(../bloсks/lead/__caption/lead__caption.css);
@@ -15,6 +17,7 @@
 @import url(../bloсks/intro/__title/intro__title.css);
 @import url(../bloсks/intro/__text/intro__text.css);
 @import url(../bloсks/intro/__list/intro__list.css);
+@import url(../bloсks/intro/__number/intro__number.css);
 @import url(../bloсks/photo-grid/photo-grid.css);
 @import url(../bloсks/photo-grid/__item/photo-grid__item.css);
 @import url(../bloсks/places/places.css);
@@ -28,7 +31,7 @@
 @import url(../bloсks/cover/cover.css);
 @import url(../bloсks/cover/__title/cover__title.css);
 @import url(../bloсks/cover/__subtitle/cover__subtitle.css);
-@import url(../bloсks/cover/__link/cover__link.css);
+@import url(../bloсks/cover/__link-background/cover__link-background.css);
 @import url(../bloсks/footer/footer.css);
 @import url(../bloсks/footer/__links/footer__links.css);
 @import url(../bloсks/footer/__link/footer__link.css);
