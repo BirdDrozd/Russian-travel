@@ -15,14 +15,13 @@
   .cover__title {
     font-size: 64px;
     padding: 195px 16px 0;
-  } 
+  }
 }
 
 @media screen and (max-width: 800px) {
   .cover__title {
-    font-size: 64px;
     padding: 115px 16px 0;
-  } 
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -32,5 +31,5 @@
     font-size: 32px;
     line-height: 35px;
     padding: 33px 16px 0;
-  } 
+  }
 }

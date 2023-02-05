@@ -4,6 +4,7 @@
   height: 52px;
   display: flex;
   justify-content: space-between;
+  max-width: 1280px;
   
 }
 
