@@ -1,32 +1,7 @@
-.place__image{
-  max-width: 460px;
-  max-height: 460px;
+.place__image {
   width: 100%;
   grid-area: photo;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center;
-}
-
-@media screen and (max-width: 1100px) {
-  .place__image {
-    max-width: 440px;
-    max-height: 440px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .place__image {
-    display: grid;
-    max-width: 340px;
-    max-height: 340px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .place__image {
-    max-width: 320px;
-    max-height: 315px;
-    order: 0;
-  }
 }
